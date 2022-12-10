@@ -1,0 +1,218 @@
+
+body{
+    background-color: #f5f5f5;
+}
+
+
+
+
+/********************NAV***********************/
+.nav-link{
+    position: relative;
+}
+.nav-link::before{
+    content: '';
+    width: 0%;
+    position: absolute;
+    bottom: 0;
+    left: 5;
+    height: 1px;
+    background-color: #0078ff;
+    transition: width 0.5s;
+}
+.nav-link:hover::before{
+    width: 60%;
+}
+
+
+.nav-item.drop1:hover .drobdown1{
+    display: block;
+}
+
+.nav-item.drop2:hover .dropdown2{
+    display: block;
+}
+
+/********************************HOME*****************************/
+
+header{
+    background-image: url(img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+ 
+   
+}
+
+
+
+/********************************HOME END*****************************/
+/********************************ABOUT********************************/
+
+.progress{
+    height: 0.8rem;
+}
+.progres{
+    width: 80%;
+}
+.progresss{
+    width: 90%;
+}
+.about-text p{
+    font-size: 1.25rem;
+    font-weight: 300;
+   
+}
+.about-text h2{
+    position: relative;
+}
+.about-text h2::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+ bottom: 0;
+ left: 0;
+
+}
+
+
+
+
+/********************************ABOUT END****************************/
+/********************************SERVICES*****************************/
+ .service-headline h2{
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+
+.service-headline p{
+    position: relative;
+}
+.service-headline p::after{
+    content: "";
+    position: absolute;
+    height: 5px;
+    background-color: #0078ff;
+    width: 50px;
+    bottom: -17px;
+ left: 0;
+ right: 0;
+ margin: 0px auto;
+
+}
+/*
+.service-box {
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #0078ff;
+    margin: 0px auto;
+    transition: all 500ms ease;
+}
+.ser-card:hover  .service-box{
+    background-color: #0078ff;
+    box-shadow: 0 0 0 10px #8ab5e0;
+    color: #fff;
+    
+} */
+
+.service-icon i{
+    width: 100px;
+    height: 100px;
+    border: solid 10px #0078ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 30px;
+    transition: all 500ms ease;
+}
+.service-cards:hover .service-icon i {
+    background-color:#0078ff ;
+    border: solid 10px #a1c8f3;
+
+}
+/********************************SERVICES END*************************/
+/********************************SERVICES TWO*************************/
+
+
+.service-two{
+    background-image: url(img/post-3.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.layer-two{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: rgba(0, 120, 255 , 0.5);
+}
+.circle-two{
+    height: 60px;
+    width: 60px;
+    line-height: 1.5;
+    box-shadow: 0 0 0 10px #cde1f8;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+/********************************SERVICES END*************************/
+.work-round i{
+    font-size: 2rem;
+   
+}
+
+
+.carry-card{
+    box-shadow: 0 13px 8px -10px rgb(0 0 0 / 10%);
+}
+
+/********************************SERVICES END*************************/
+.slider{
+    background-image: url(img/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.layer-out{
+    background-color: rgba(0, 120, 255 , 0.5);
+ 
+}
+
+
+.carousel-indicators .doot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+/*******/
+.blog-left img{
+width: 50px;
+border-radius: 50%;
+}
+
+
+
+
+.social i{
+    font-size: 20px;
+    border: 1px solid black;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  
+ 
+}
